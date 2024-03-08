@@ -1,0 +1,27 @@
+body, html {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.formatButton {
+    font-size: 15pt;
+    padding: 1ch;
+}
+.form-control {
+    font-size: 12pt;
+    padding: 2ch;
+    border: outset #fff 2px;
+    border-radius: 1ch;
+}
+.form-control.pressed {
+    border: inset #fff 2px;
+}
+textarea.form-control {
+    border-top: inset #fff 2px !important;
+    border-right: outset #fff 2px !important;
+    border-bottom: outset #fff 2px !important;
+    border-left: inset #fff 2px !important;
+    height: 100%;
+}
+.font-inherit { font-family: inherit; }
+.font-serif { font-family: serif; }
+.font-sans-serif { font-family: sans-serif; }
+.font-monospace { font-family: monospace; }
